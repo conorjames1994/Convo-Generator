@@ -5,9 +5,9 @@ let phrase3Array = ['See ya!', 'Bye.', 'Nice to meet you.', 'au revoir.', 'Goodb
 const randomiser = (array) => {
   return Math.floor(Math.random() * array.length)
 }
-//console.log(randomiser(phrase1Array))
+
 let phrase1 = phrase1Array[randomiser(phrase1Array)];
-//console.log(phrase1)
+
 let phrase2 = phrase2Array[randomiser(phrase2Array)];
 let phrase3 = phrase3Array[randomiser(phrase3Array)];
 
